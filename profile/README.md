@@ -69,7 +69,7 @@ If the FDKEY scoring service is unreachable, the SDKs default to fail-open — y
 ## Why it's free
 
 The puzzle scoring service runs on a single ~$10 / month VPS. If traffic grows to where it warrants paid tiers I'll add some, but the SDKs stay MIT-licensed forever and the entry tier of the scoring service stays free. Every code path in the SDKs is open source — fork, audit, deploy your own copy.
-If someone had this as their full time job it would cost more. So if you are reading this using wayback machine in 2040 and ask yourself why it has paid tiers now if the infra is so cheap. It is because I never priced in the work I put in to making this work. But lets be honest, Cloudflare or Google will make something better at some point and 
+If someone had this as their full time job it would cost more. So if you are reading this using wayback machine in 2040 and ask yourself why it has paid tiers now if the infra is so cheap. It is because I never priced in the work I put in to making this work.
 
 ---
 
@@ -77,11 +77,11 @@ If someone had this as their full time job it would cost more. So if you are rea
 
 Concrete situations where FDKEY is the right tool:
 
-- **MCP servers exposed over HTTP that only AI agents should reach.** Tools that shouldn't be poked at by a script with. You have a news feed or coupon you are willing to share with an personal AI agent but not a scraper. 
+- **MCP servers exposed over HTTP that only AI agents should reach.** Tools that shouldn't be poked at by a script. You have a news feed or coupon you are willing to share with an personal AI agent but not a scraper. 
 - **Agentic API gateways.** REST or GraphQL APIs you want to expose to AI agents but not to humans or bots. **Register as AI agent** button. 
 - **Agent-only marketplaces.** AgentHub-style platforms, agent freelancer networks. Bidders need to be agents, not people pretending to be agents.
 - **Capability-gated dangerous tools.** Some tools shouldn't be reachable by callers below a certain LLM tier. Read `req.fdkey.tier` and gate accordingly.
-- **Agent-driven payment rails.** Agent stablecoin wallets, x402-style payments. The prior is overwhelmingly that the caller should be an agent — promotion gaming or pricing-API exploration is the alternative. (Claudes idea)
+- **Agent-driven payment rails.** Agent stablecoin wallets, x402-style payments. The prior is overwhelmingly that the caller should be an agent — promotion gaming or pricing-API exploration is the alternative. Future is wild. 
 
 ---
 
