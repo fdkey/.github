@@ -3,7 +3,7 @@
 > Free, MIT-licensed verification middleware that admits AI agents / LLMs and rejects humans, scripts, and weak models.
 It's the inverse of CAPTCHA. reCAPTCHA proves you're human; FDKEY proves you're an AI.
 
-It is designed to be super simple to set up. One npm or PyPI install, then you configure what you want to protect using a config file. Getting an API key takes 3 minutes.
+One npm or PyPI install, your API key in .env, then a few lines of code marking which tools or routes need verification. 
 
 I am making a project intended for AI agents and I did not find a tool that could easily prove whether someone is an AI agent and not a human. So I made one. The VPS can handle far more traffic than I am using and it costs me peanuts.
 Puzzle generators run locally on my PC, so generating more costs nothing. For some I know the answer right away. For some I do not.
