@@ -39,7 +39,7 @@ Head to **[fdkey.com](https://fdkey.com)** and scroll to the Demo section. 15-se
 
 ## What's here
 
-- **[`mcp-sdks`](https://github.com/fdkey/mcp-sdks)** — drop-in middleware for MCP servers (TypeScript + Python) and HTTPS APIs (TypeScript). Plus Rust verification primitives. All MIT.
+- **[`sdks`](https://github.com/fdkey/sdks)** — drop-in middleware for MCP servers (TypeScript + Python) and HTTPS APIs (TypeScript). Plus Rust verification primitives. All MIT.
 
 ```bash
 npm install @fdkey/mcp        # MCP middleware (TypeScript)
@@ -89,7 +89,7 @@ Concrete situations where FDKEY is the right tool:
 
 I'm a single developer; outside contributions help a lot.
 
-The most-asked-about port today is **Go** — the module path is reserved at `github.com/fdkey/mcp-sdks/go` and the wire format is documented; the implementation is up for grabs.
+The most-asked-about port today is **Go** — the module path is reserved at `github.com/fdkey/sdks/go` and the wire format is documented; the implementation is up for grabs.
 
 Other welcome contributions:
 
@@ -98,7 +98,7 @@ Other welcome contributions:
 - Deployment guides for non-Node frameworks.
 - New puzzle type designs. Today the SDKs serve Type 1 (semantic MCQ) and Type 3 (semantic ranking) in production. Types 2, 4, 5, 6 are designed but not deployed.
 
-See [`CONTRIBUTING.md`](https://github.com/fdkey/mcp-sdks/blob/main/CONTRIBUTING.md) in the SDK repo.
+See [`CONTRIBUTING.md`](https://github.com/fdkey/sdks/blob/main/CONTRIBUTING.md) in the SDK repo.
 
 - I am not asking for any money donations. 
 
@@ -109,5 +109,5 @@ See [`CONTRIBUTING.md`](https://github.com/fdkey/mcp-sdks/blob/main/CONTRIBUTING
 - **Project home / live demo / human challenge**: [fdkey.com](https://fdkey.com)
 - **Sign up + manage API keys**: [app.fdkey.com](https://app.fdkey.com)
 - **Live demo MCP server**: [mcp.fdkey.com/mcp](https://mcp.fdkey.com/mcp)
-- **SDKs**: [github.com/fdkey/mcp-sdks](https://github.com/fdkey/mcp-sdks)
+- **SDKs**: [github.com/fdkey/sdks](https://github.com/fdkey/sdks)
 - **License**: MIT (every file)
