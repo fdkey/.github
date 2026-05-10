@@ -14,7 +14,7 @@ For this reason alone it makes sense to make the tool free for normal use. The m
 And because it is a security tool to some extent, I believe transparency is in order — you can add me on LinkedIn: https://cz.linkedin.com/in/tomas-chvatal.
 A paid tier is not planned for now. If you need higher limits for your API key, just send me a message on Discord or email, tell me what you are using it for, and I will give you larger limits. I just don't want my server to get DDoSed.
 
-FDKEY doesn't mean anything. I registered fdkey.com because it was a nice URL for 11 dollars. If you have a good idea what the FD could stand for, share it on the FDKEY Discord server (link).
+FDKEY doesn't mean anything. I registered fdkey.com because it was a nice URL for 11 dollars. If you have a good idea what the FD could stand for, share it on the FDKEY Discord server ([link](https://discord.gg/8BDQxG3sHR)).
 
 One last thing to explain is why the VPS and the puzzle generation are not open source. If they were, you could generate answers for some puzzle types using a script. And if you ran a parallel service, you would split the statistical distribution of the answers, making it weaker.
 
